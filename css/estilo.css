@@ -1,3 +1,84 @@
+.o{
+    text-align: justify;
+  }
 .negro{
   background-color: black;
+}
+.centrar{
+  text-align: center;
+}
+ul{
+  list-style: none;/*le quitamos las viñetas*/
+}
+footer{
+  height: 200px;
+}
+a{
+  text-decoration: none;
+  color: red;
+  /*color: rgba(255, 0, 0, 0.5);respeta transparencias*/
+}
+a:hover{/*antes lo usamos, pero sobreescribimos en la clase menu-navegacion*/
+  color: white;
+}
+.derecho{
+  float: right;
+}
+.izquierdo{
+  float: left;
+}
+
+.menu-navegacion a{/*Todos los a´s que esten dentro de esta clase, los vas a afectar*/
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  margin: 0px 10px;
+  color:white;
+  background: rgb(75, 148, 215);
+  display: inline-block;/*Separa sin afectar mi etiqueta o algo asi */
+  border: none;
+  text-align: center;/*texto centrado*/
+  font-size: 16px;
+}
+li{
+  display: inline;
+}
+li:hover a{/*todas las etiquetas cuando le paso el mouse ponmelas un poquito de un color*/
+background: white;
+color: black;
+}
+li.activo a {/*todos los elementos a que esten en li que tengan la clase activo va a pasar esto*/
+background: red;
+  }
+.menu-navegacion{
+  text-align: center;
+}
+.contText{
+  width: 700px;
+}
+.contText h3{
+  color: rgb(255, 161, 0);
+  font-family:fantasy;
+}
+/*div{
+  border: 10px solid pink;
+}
+/*por bajo de 700px*/
+@media screen and (max-width: 700px){
+  footer{
+    height: 270px;
+  }
+  .contText{
+    width: 290px;
+  }
+}
+}
+img.chiq{
+  width: 25px;
+  height: 25px;
+}
+.contText h4{
+  color: rgb(14, 125, 255);
+  text-decoration:underline;
+  font-family: cursive;
 }
