@@ -1,0 +1,68 @@
+*{/* va a seleccionar todo y editarlo*/
+  font-family: "Raleway",sans-serif;/*se ven super padres*/
+
+}
+body{
+  background-color: #fff;
+  padding: 3%;/*Le da un borde*/
+
+}
+p,h3,h5{
+  font-family:monospace;
+  color: white;
+  text-align: center;
+}
+}
+.header{
+  text-align:center;
+  width: 100%;
+  height: 200px;
+}
+.izquierdo2{
+  width:770px;
+  height: 900px;
+  /*border: 12px solid pink;*/
+  float: left;
+}
+.izquierdo3{
+  width:400px;
+  height: 900px;
+  /*border: 12px solid pink;*/
+  float: left;
+}
+@media (min-width: 0px) and (max-width:800px) {
+  .izquierdo2{
+    width:300px;
+    height:1900px;
+    column-count: 1;
+  }}
+.derecho2{
+  width:350px;
+  height: 750px;
+  /*border: 1px solid black;*/
+  float: right;
+
+}
+/*.renglon{
+  border: 1px solid black;
+
+}*/
+.IMAGEN{
+  margin:10%;
+  /*float: left;*/
+  box-shadow: 10px 10px 5px #999;
+  margin-bottom: 9%;
+}
+
+.notas{
+  background: black;
+}
+.primero{
+  font-weight: 400;
+  margin: 3%;
+/*no lleva unidades font-weight*/
+}
+.segundo{
+  margin: 3%;
+  color: #000000;
+}

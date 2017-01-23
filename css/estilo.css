@@ -43,6 +43,12 @@ a:hover{/*antes lo usamos, pero sobreescribimos en la clase menu-navegacion*/
 li{
   display: inline;
 }
+li a{
+  color: white;
+}
+.blanco{
+  font-family:fantasy;
+}
 li:hover a{/*todas las etiquetas cuando le paso el mouse ponmelas un poquito de un color*/
 background: white;
 color: black;
@@ -60,9 +66,13 @@ background: red;
   color: rgb(255, 161, 0);
   font-family:fantasy;
 }
+img.vertical {
+    vertical-align: text-top;
+}
 /*div{
   border: 10px solid pink;
-}
+}*/
+
 /*por bajo de 700px*/
 @media screen and (max-width: 700px){
   footer{
